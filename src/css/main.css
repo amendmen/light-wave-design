@@ -71,3 +71,11 @@ h3.logo {
 .center {
   height: 200px;
   margin-top: 200px; }
+
+#carousel p {
+  text-align: center;
+  color: blue; }
+
+.carousel-indicators {
+  position: relative;
+  margin-top: 20px; }
