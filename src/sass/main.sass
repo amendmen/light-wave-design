@@ -1,0 +1,70 @@
+$dark: rgba(1,1,1, 0.6)
+$main: blue
+body
+	width: 100%
+	padding: 0
+	margin: 0
+	color: #fff
+.fix
+	position: fixed
+	top: 0
+	left: 0
+	width: 100%
+.vegas-container
+	background: url(../img/2.jpg)
+	width: 100%
+	min-height: 500px
+	
+h1, h2, h3, h4, .logo
+	margin: 0
+	text-transform: uppercase
+	text-align: center
+a 
+	color: inherit
+	&:hover
+		color: $main
+		text-decoration: none
+header,
+section,
+footer
+	width: 100%
+	position: absolute
+	z-index: 100
+.navbar
+	z-index: 150
+	background-color: $dark
+	border: none
+	float: left
+	min-height: 30px
+	.row	
+		vertical-align: middle
+.nav-pills
+	float: right
+.nav>li>a
+	padding: 0
+	margin: 10px 20px
+	text-transform: uppercase
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover,
+.nav-pills>li>a:hover
+	background-color: inherit
+	color: inherit
+.nav-pills>li.active>a
+	border-bottom: $main solid 1px
+	border-radius: 0
+
+.logo
+	float: left
+h3.logo
+	margin: 8px
+	
+.center
+	height: 200px
+	margin-top: 200px
+
+
+
+
+
+//@import 'src/css/media.css'
