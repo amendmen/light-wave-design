@@ -1,7 +1,14 @@
 body {
-  width: 100%;
-  padding: 0;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
   margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
   color: #fff; }
 
 .fix {
@@ -15,7 +22,7 @@ body {
   width: 100%;
   min-height: 500px; }
 
-h1, h2, h3, h4, .logo {
+h1, h2, h3, h4, h5, .logo {
   margin: 0;
   text-transform: uppercase;
   text-align: center; }
@@ -23,24 +30,24 @@ h1, h2, h3, h4, .logo {
 a {
   color: inherit; }
   a:hover {
-    color: blue;
     text-decoration: none; }
 
 header,
 section,
 footer {
   width: 100%;
-  position: absolute;
+  position: relative;
   z-index: 100; }
 
 .navbar {
-  z-index: 150;
-  background-color: rgba(1, 1, 1, 0.6);
   border: none;
   float: left;
   min-height: 30px; }
   .navbar .row {
     vertical-align: middle; }
+
+.navbar.navbar-default.navbar-fixed-top {
+  z-index: 9999; }
 
 .nav-pills {
   float: right; }
@@ -48,7 +55,8 @@ footer {
 .nav > li > a {
   padding: 0;
   margin: 10px 20px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  z-index: 150; }
 
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
@@ -58,7 +66,6 @@ footer {
   color: inherit; }
 
 .nav-pills > li.active > a {
-  border-bottom: blue solid 1px;
   -webkit-border-radius: 0;
           border-radius: 0; }
 
@@ -68,14 +75,104 @@ footer {
 h3.logo {
   margin: 8px; }
 
+header {
+  min-height: 500px;
+  height: 100vh; }
+
 .center {
   height: 200px;
-  margin-top: 200px; }
+  margin-top: 120px;
+  text-align: center; }
 
 #carousel p {
   text-align: center;
-  color: blue; }
+  margin-top: 20px; }
 
 .carousel-indicators {
   position: relative;
   margin-top: 20px; }
+
+.socials {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 15px;
+  width: 100%; }
+  .socials .row {
+    padding: 5px; }
+  .socials .soc {
+    padding: 6px 10px;
+    display: inline;
+    margin: 15px;
+    z-index: 100; }
+
+.btn {
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  margin-top: 30px; }
+
+#pricing,
+#work,
+#services,
+#team,
+#contact {
+  z-index: 90; }
+
+hr {
+  width: 50px;
+  height: 2px;
+  border-top: 0; }
+
+section h4 {
+  margin-top: 70px; }
+
+.service-wrap {
+  padding: 20px; }
+
+.service-item {
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding: 40px 20px 10px 20px; }
+  .service-item h5 {
+    text-transform: none;
+    text-align: left;
+    margin-bottom: 5px; }
+  .service-item i {
+    font-size: 40px;
+    margin-bottom: 30px; }
+  .service-item p {
+    font-size: 12px; }
+
+.price-item {
+  text-align: center;
+  padding: 30px 0; }
+  .price-item i {
+    vertical-align: top;
+    font-size: 30px; }
+  .price-item span {
+    font-size: 60px;
+    font-weight: bold; }
+  .price-item p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .price-item .type {
+    width: 100%;
+    padding: 30px 0; }
+    .price-item .type h3 {
+      font-weight: 700; }
+  .price-item .about {
+    text-align: center; }
+    .price-item .about .btn {
+      text-transform: uppercase;
+      font-weight: bold; }
+    .price-item .about ul {
+      margin-top: 50px;
+      list-style: none;
+      padding: 0; }
+      .price-item .about ul li {
+        margin-bottom: 30px;
+        font-weight: bold; }
+        .price-item .about ul li i {
+          font-size: 14px;
+          vertical-align: middle;
+          margin-right: 5px; }

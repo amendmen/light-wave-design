@@ -1,9 +1,14 @@
-$dark: rgba(1,1,1, 0.6)
-$main: blue
 body
-	width: 100%
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	margin: 0 
 	padding: 0
-	margin: 0
+	width: 100%
+	overflow-x: hidden
+	overflow-y: scroll
 	color: #fff
 .fix
 	position: fixed
@@ -14,35 +19,36 @@ body
 	background: url(../img/2.jpg)
 	width: 100%
 	min-height: 500px	
-h1, h2, h3, h4, .logo
+h1, h2, h3, h4, h5, .logo
 	margin: 0
 	text-transform: uppercase
 	text-align: center
 a 
 	color: inherit
 	&:hover
-		color: $main
 		text-decoration: none
 header,
 section,
 footer
 	width: 100%
-	position: absolute
+	position: relative
 	z-index: 100
+
 .navbar
-	z-index: 150
-	background-color: $dark
 	border: none
 	float: left
 	min-height: 30px
 	.row	
 		vertical-align: middle
+.navbar.navbar-default.navbar-fixed-top
+	z-index: 9999
 .nav-pills
 	float: right
 .nav>li>a
 	padding: 0
 	margin: 10px 20px
 	text-transform: uppercase
+	z-index: 150
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover,
@@ -50,25 +56,104 @@ footer
 	background-color: inherit
 	color: inherit
 .nav-pills>li.active>a
-	border-bottom: $main solid 1px
 	border-radius: 0
 
 .logo
 	float: left
 h3.logo
 	margin: 8px
-	
+header
+	min-height: 500px
+	height: 100vh	
 .center
 	height: 200px
-	margin-top: 200px
+	margin-top: 120px
+	text-align: center
 #carousel p 
 	text-align: center
-	color: $main
+	margin-top: 20px
 .carousel-indicators
 	position: relative
 	margin-top: 20px
+.socials
+	.row
+		padding: 5px
+	text-align: center
+	margin-bottom: 40px
+	margin-top: 15px
+	width: 100%
+	.soc
+		padding: 6px 10px
+		display: inline
+		margin: 15px
+		z-index: 100
+.btn 
+	border-radius: 0
+	margin-top: 30px
+#pricing,
+#work,
+#services,
+#team,
+#contact
+	z-index: 90	
+hr
+	width: 50px				
+	height: 2px
+	border-top: 0
+section h4
+	margin-top: 70px
+.service-wrap
+	padding: 20px
+.service-item
+	border-radius: 5px
+	padding: 40px 20px 10px 20px
+	h5
+		text-transform: none
+		text-align: left
+		margin-bottom: 5px
+	i 
+		font-size: 40px
+		margin-bottom: 30px
+	p 
+		font-size: 12px
+
+.price-item
+	text-align: center
+	padding: 30px 0
+	i 
+		vertical-align: top
+		font-size: 30px
+	span
+		font-size: 60px
+		font-weight: bold
+	p 
+		font-size: 12px
+		font-weight: bold
+		margin-bottom: 20px
+	.type
+		width: 100%
+		padding: 30px 0
+		h3
+			font-weight: 700
+	.about
+		text-align: center
+		.btn 
+			text-transform: uppercase
+			font-weight: bold
+		ul
+			margin-top: 50px
+			list-style: none
+			padding: 0
+			li 
+				margin-bottom: 30px
+				font-weight: bold
+				i 
+					font-size: 14px
+					vertical-align: middle
+					margin-right: 5px
+	
 
 
 
 
-//@import 'src/css/media.css'
+

@@ -1,0 +1,64 @@
+a:hover {
+  color: blue; }
+
+.navbar {
+  background-color: rgba(1, 1, 1, 0.6); }
+
+.nav-pills > li.active > a {
+  border-bottom: blue solid 1px; }
+
+#carousel p {
+  color: blue; }
+
+.soc {
+  border: 2px solid blue; }
+  .soc:hover {
+    -webkit-transition: background-color, 0.25s;
+    -o-transition: background-color, 0.25s;
+    transition: background-color, 0.25s;
+    background: blue;
+    color: #fff; }
+
+.btn {
+  background-color: blue;
+  border: 2px solid blue; }
+  .btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 2px solid blue;
+    -webkit-transition: background-color, 0.25s;
+    -o-transition: background-color, 0.25s;
+    transition: background-color, 0.25s; }
+
+hr {
+  background-color: blue; }
+
+.service-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 0 1px rgba(1, 1, 1, 0.6);
+          box-shadow: 0 0 1px rgba(1, 1, 1, 0.6); }
+  .service-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-transition: background-color, 0.4s;
+    -o-transition: background-color, 0.4s;
+    transition: background-color, 0.4s;
+    -webkit-box-shadow: 0 0 5px rgba(1, 1, 1, 0.6);
+            box-shadow: 0 0 5px rgba(1, 1, 1, 0.6); }
+  .service-item i {
+    color: blue; }
+
+.price-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 0 1px rgba(1, 1, 1, 0.6);
+          box-shadow: 0 0 1px rgba(1, 1, 1, 0.6);
+  color: #fff; }
+  .price-item:hover {
+    background-color: rgba(1, 1, 1, 0.1);
+    -webkit-box-shadow: inset 0 0 5px rgba(1, 1, 1, 0.6);
+            box-shadow: inset 0 0 5px rgba(1, 1, 1, 0.6);
+    -webkit-transition: all, 0.5s;
+    -o-transition: all, 0.5s;
+    transition: all, 0.5s; }
+  .price-item .type {
+    background-color: rgba(1, 1, 1, 0.6);
+    color: blue; }
