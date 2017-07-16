@@ -1,7 +1,11 @@
 $(document).ready(function() {
 
-$(function() {	
-    $('.vegas-container').vegas({
+	$(function(){
+		$('#Container').mixItUp();
+	});
+
+	$(function() {	
+		$('.vegas-container').vegas({
         slides: [
             { src: '/img/1.jpg' },
             { src: '/img/2.jpg' },

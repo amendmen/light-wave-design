@@ -62,3 +62,10 @@ hr {
   .price-item .type {
     background-color: rgba(1, 1, 1, 0.6);
     color: blue; }
+
+#Container.container.gal .mix-wrap {
+  margin-bottom: 30px; }
+
+.mix {
+  border: 1px solid blue;
+  background-color: rgba(255, 255, 255, 0.1); }

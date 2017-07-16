@@ -1,5 +1,6 @@
 var gulp 		 = require('gulp'),
 	sass 		 = require('gulp-sass'),
+	plumber      = require('gulp-plumber'),
 	browserSync  = require('browser-sync'),
 	concat       = require('gulp-concat'),
 	uglify       = require('gulp-uglifyjs'),
@@ -14,6 +15,7 @@ var gulp 		 = require('gulp'),
 
 gulp.task('sass', function() {
 	return gulp.src('src/sass/**/*.sass')
+		.pipe(plumber())
 		.pipe(sass())
 		.pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
 		.pipe(gulp.dest('src/css'))
@@ -31,6 +33,7 @@ gulp.task('scripts', function() {
 			'src/libs/bootstrap/dist/js/bootstrap.min.js'
 			//'src/libs/vegas/dist/vegas.min.js'
 		])
+	.pipe(plumber())
 	.pipe(concat('libs.js'))
 	.pipe(uglify())
 	.pipe(rename({suffix: '.min'}))
@@ -39,6 +42,7 @@ gulp.task('scripts', function() {
 
 gulp.task('css-libs', ['sass', 'icons'], function() {
 	return gulp.src('src/css/libs.css')
+	.pipe(plumber())
     .pipe(cssnano())
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('src/css/'));
@@ -87,6 +91,7 @@ gulp.task('build', ['clean', 'img', 'sass', 'scripts'], function() {
 	var buildCss = gulp.src([
 			'src/css/main.css',
 			'src/css/libs.min.css',
+			'src/css/blue.css',
 			'src/css/media.css'
 		])
 		.pipe(gulp.dest('dist/css'));

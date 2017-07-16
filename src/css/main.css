@@ -176,3 +176,13 @@ section h4 {
           font-size: 14px;
           vertical-align: middle;
           margin-right: 5px; }
+
+#Container .mix {
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding: 15px;
+  text-align: center; }
+  #Container .mix img {
+    width: 100%;
+    -webkit-border-radius: 5px;
+            border-radius: 5px; }
