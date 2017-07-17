@@ -67,6 +67,11 @@ hr {
 .work-item {
   border: 1px solid blue;
   background-color: rgba(255, 255, 255, 0.1); }
+  .work-item:hover {
+    background-color: rgba(1, 1, 1, 0.1);
+    -webkit-transition: all, 0.5s;
+    -o-transition: all, 0.5s;
+    transition: all, 0.5s; }
 
 .mixitup-control-active {
   background-color: rgba(255, 255, 255, 0.1);
@@ -79,3 +84,9 @@ hr {
 .btn:active:focus,
 .btn:focus {
   outline: none; }
+
+#team .member {
+  border: 1px solid #fff;
+  background-color: rgba(1, 1, 1, 0.6); }
+  #team .member h5 {
+    color: blue; }
