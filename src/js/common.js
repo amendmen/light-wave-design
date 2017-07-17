@@ -15,6 +15,15 @@ $(document).ready(function() {
     });
 })
 
+$('.image-popup-fit-width').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		image: {
+			verticalFit: false
+		}
+	});
+
+
 $('.carousel').carousel({
   interval: 2000
 })

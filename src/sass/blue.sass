@@ -20,11 +20,13 @@ a:hover
 .btn 
 	background-color: $main
 	border: 2px solid $main
+	&:focus,
 	&:hover
 		background-color: $light
 		color: #fff
 		border: 2px solid $main
 		transition: background-color, 0.25s
+		outline: none
 hr
 	background-color: $main
 .service-item
@@ -47,9 +49,16 @@ hr
 	.type
 		background-color: $dark
 		color: $main
-#Container.container.gal
-	.mix-wrap
-		margin-bottom: 30px
-.mix
+.work-item
 	border: 1px solid $main
 	background-color: $light
+.mixitup-control-active
+	background-color: $light
+	color: #fff
+	border: 2px solid $main
+	transition: background-color, 0.25s
+.btn:active:focus,
+.btn:focus
+	outline: none
+
+

@@ -22,13 +22,14 @@ a:hover {
 .btn {
   background-color: blue;
   border: 2px solid blue; }
-  .btn:hover {
+  .btn:focus, .btn:hover {
     background-color: rgba(255, 255, 255, 0.1);
     color: #fff;
     border: 2px solid blue;
     -webkit-transition: background-color, 0.25s;
     -o-transition: background-color, 0.25s;
-    transition: background-color, 0.25s; }
+    transition: background-color, 0.25s;
+    outline: none; }
 
 hr {
   background-color: blue; }
@@ -63,9 +64,18 @@ hr {
     background-color: rgba(1, 1, 1, 0.6);
     color: blue; }
 
-#Container.container.gal .mix-wrap {
-  margin-bottom: 30px; }
-
-.mix {
+.work-item {
   border: 1px solid blue;
   background-color: rgba(255, 255, 255, 0.1); }
+
+.mixitup-control-active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 2px solid blue;
+  -webkit-transition: background-color, 0.25s;
+  -o-transition: background-color, 0.25s;
+  transition: background-color, 0.25s; }
+
+.btn:active:focus,
+.btn:focus {
+  outline: none; }
