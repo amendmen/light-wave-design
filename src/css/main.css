@@ -58,7 +58,6 @@ footer {
   text-transform: uppercase;
   z-index: 150; }
 
-.nav-pills > li.active,
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover,
