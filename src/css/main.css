@@ -20,7 +20,8 @@ body {
 .vegas-container {
   background: url(../img/2.jpg);
   width: 100%;
-  min-height: 500px; }
+  min-height: 500px;
+  height: 100vh; }
 
 h1, h2, h3, h4, h5, .logo {
   margin: 0;
@@ -207,15 +208,24 @@ section h4 {
 
 #team .member {
   width: 100%;
-  height: 50%;
   -webkit-border-radius: 8px 8px 0 0;
           border-radius: 8px 8px 0 0;
   overflow: hidden;
   text-align: center; }
+  #team .member:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: all, 0.4s;
+    -o-transition: all, 0.4s;
+    transition: all, 0.4s; }
   #team .member p {
     margin: 0 20px 20px 20px; }
   #team .member img {
-    width: 100%; }
+    width: 100%;
+    max-height: 200px;
+    -webkit-background-size: cover;
+            background-size: cover; }
   #team .member .name {
     width: 100%;
     height: auto;
@@ -229,3 +239,34 @@ section h4 {
       vertical-align: middle; }
     #team .member .name h5 {
       font-size: 12px; }
+
+#contact {
+  padding-bottom: 50px; }
+  #contact .flex-cont {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    #contact .flex-cont .contact-container {
+      padding: 50px 30px;
+      width: 32%;
+      -webkit-border-radius: 5px;
+              border-radius: 5px; }
+    #contact .flex-cont h2 {
+      text-transform: capitalize;
+      text-align: left;
+      margin-bottom: 10px; }
+    #contact .flex-cont p,
+    #contact .flex-cont li {
+      font-size: 18px; }
+    #contact .flex-cont .socials {
+      margin-bottom: 0;
+      text-align: left; }
+    #contact .flex-cont ul {
+      list-style: none;
+      padding: 0; }
