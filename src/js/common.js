@@ -23,6 +23,8 @@ $('.image-popup-fit-width').magnificPopup({
 		}
 	});
 
+$('body').scrollspy({ target: '.navbar' })
+
 
 $('.carousel').carousel({
   interval: 2000

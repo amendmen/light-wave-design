@@ -7,8 +7,16 @@ a:hover
 	color: $main
 .navbar
 	background-color: $dark
-.nav-pills>li.active>a
+	li 
+		margin: 10px 20px 
+.nav>li>a:focus,
+.nav>li>a:hover,
+.nav>li>a.active,
+.nav-pills>li.active
 	border-bottom: $main solid 1px
+	background-color: inherit
+	border-radius: 0
+	color: #fff
 #carousel p 
 	color: $main
 .soc

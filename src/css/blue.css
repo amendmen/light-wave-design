@@ -3,9 +3,18 @@ a:hover {
 
 .navbar {
   background-color: rgba(1, 1, 1, 0.6); }
+  .navbar li {
+    margin: 10px 20px; }
 
-.nav-pills > li.active > a {
-  border-bottom: blue solid 1px; }
+.nav > li > a:focus,
+.nav > li > a:hover,
+.nav > li > a.active,
+.nav-pills > li.active {
+  border-bottom: blue solid 1px;
+  background-color: inherit;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  color: #fff; }
 
 #carousel p {
   color: blue; }

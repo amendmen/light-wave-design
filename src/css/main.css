@@ -55,10 +55,10 @@ footer {
 
 .nav > li > a {
   padding: 0;
-  margin: 10px 20px;
   text-transform: uppercase;
   z-index: 150; }
 
+.nav-pills > li.active,
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover,
