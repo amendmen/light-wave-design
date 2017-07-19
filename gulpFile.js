@@ -32,9 +32,8 @@ gulp.task('scripts', function() {
 			'src/libs/jquery/dist/jquery.min.js',
 			'src/libs/bootstrap/dist/js/bootstrap.min.js',
 			'src/libs/mixitup/mixitup.min.js',
-			'src/libs/magnific-popup/dist/jquery.magnific-popup.min.js'
-
-			//'src/libs/vegas/dist/vegas.min.js'
+			'src/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
+			'src/libs/vegas/dist/vegas.min.js'
 		])
 	.pipe(plumber())
 	.pipe(concat('libs.js'))

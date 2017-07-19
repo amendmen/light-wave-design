@@ -18,10 +18,13 @@ body {
   width: 100%; }
 
 .vegas-container {
-  background: url(../img/2.jpg);
   width: 100%;
   min-height: 500px;
   height: 100vh; }
+
+.vegas-overlay {
+  z-index: 110;
+  opacity: 1; }
 
 h1, h2, h3, h4, h5, .logo {
   margin: 0;
@@ -200,7 +203,8 @@ section h4 {
             border-radius: 5px; }
   #Container .work-item p {
     margin-top: 10px;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-weight: bold; }
 
 #team hr {
   margin-bottom: 100px; }
