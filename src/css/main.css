@@ -89,7 +89,8 @@ header {
 
 #carousel p {
   text-align: center;
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-weight: bold; }
 
 .carousel-indicators {
   position: relative;

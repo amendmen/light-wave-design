@@ -1,0 +1,145 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.option .menu-item h3 {
+		font-size: 18px;
+	}
+	
+	.option .price h2 {
+		font-size: 20px;
+	}
+
+	}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.navbar,
+	ul.nav.nav-tabs {
+		display: none;
+	}
+
+	section {
+		padding: 10px 0;
+	}
+
+	.visib {
+		display: block;
+
+	}
+	
+
+	
+	div.logo img {
+		float: left;
+		margin-left: 30px;
+	}
+	.def {
+		float: right;
+		margin-right: 30px;
+		margin-top: 50px;
+		z-index: 10000;
+	}
+	.fix {
+		position: fixed;
+		top: 15px;
+		right: 40px;
+		z-index: 1000;
+	}
+	div.logo img.fix {
+		top: 0;
+		left: 40px;
+		margin-left: 0;
+	}
+	div.logo img.def {
+		margin-top: 30px;
+		margin-left: 40px;
+	}
+	.sm-menu {
+		width: 25px;
+		height: 25px;
+		border-top: 3px solid #ffffff;
+		border-bottom: 3px solid #ffffff;
+		border-radius: none;
+		z-index: 10000;
+	}
+	.sm-menu::before {
+		content: "";
+		position: relative;
+		display: block;
+		width: 25px;
+		height: 3px;
+		background-color: #ffffff;
+		top: 8px;
+	}
+	.sm-menu:hover {
+		border-top: 3px solid #FF5252;
+		border-bottom: 3px solid #FF5252;
+
+	}
+	.sm-menu:hover::before {
+		background-color: #FF5252;
+	}
+	
+	ul.nav.mini-m {
+		display: block;
+		position: absolute;
+		top: 60px;
+		z-index: 1550;
+		width: 100%;
+		height: auto;
+		background-color: rgba(0,0,0, 0.8);
+		list-style: auto
+		margin: 0;
+	}
+	#nmenu ul.nav.mini-m li {
+		width: 100%;
+		margin-bottom: 0;
+			
+	}
+  .gallery .filter {
+  	font-size: 14px;
+  }
+  footer,
+  footer .container p {
+  	text-align: center;
+  }
+  .row.footer-container,
+  .socials.container {
+  	margin-bottom: 20px;
+  }
+	}
+	
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+	.gallery .filter {
+		padding: 5px 10px;
+		margin: 5px;
+		font-size: 12px;
+	}
+	#chefs .chef h4 {
+		font-size: 14px;
+	}
+	#chefs .chef p {
+		font-size: 10px;
+	}
+
+	.stat .stat-item h2 {
+		font-size: 30px;
+	}
+	.row.footer-container {
+		display: none;
+	}
+	}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+

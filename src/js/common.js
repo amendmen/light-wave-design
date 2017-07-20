@@ -4,6 +4,14 @@ $(document).ready(function() {
 		$('#Container').mixItUp();
 	});
 
+	$('.go_to').click( function(){ 
+  		var scroll_el = $(this).attr('href'); 
+  		if ($(scroll_el).length != 0) { 
+  			$('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500); 
+  		}
+  		return false; 
+  	}); 
+
 	$(function() {	
 		$('.vegas-container').vegas({
 		delay: 7000,
@@ -30,11 +38,11 @@ $('.image-popup-fit-width').magnificPopup({
 		}
 	});
 
-$('body').scrollspy({ target: '.navbar' })
+$('body').scrollspy({ target: '.navbar' });
 
 
 $('.carousel').carousel({
   interval: 2000
-})
+});
 
 })
