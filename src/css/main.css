@@ -82,6 +82,25 @@ header {
   min-height: 500px;
   height: 100vh; }
 
+.flex-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%; }
+  .flex-wrap .flex-content {
+    width: 50%;
+    text-align: center; }
+
 .center {
   height: 200px;
   margin-top: 120px;
