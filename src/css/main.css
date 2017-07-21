@@ -275,12 +275,11 @@ section h4 {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
     #contact .flex-cont .contact-container {
-      padding: 50px 30px;
+      padding: 50px 20px;
       width: 32%;
       -webkit-border-radius: 5px;
               border-radius: 5px; }
@@ -292,8 +291,15 @@ section h4 {
     #contact .flex-cont li {
       font-size: 18px; }
     #contact .flex-cont .socials {
-      margin-bottom: 0;
-      text-align: left; }
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; }
+      #contact .flex-cont .socials .soc {
+        margin: 0; }
     #contact .flex-cont ul {
       list-style: none;
       padding: 0; }

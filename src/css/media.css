@@ -15,9 +15,6 @@
 .flex-wrap .flex-content {
 	width: 80%;
 	}
-/* .nav.nav-pills {
-	display: none;
-} */
 
 .sandvich {
 	display: block;
@@ -33,27 +30,61 @@
 .mfp-content #modal-menu.nav-pills {
 	float: none;
 }
-/* .mfp-content {
 
-	display: flex;
-	justify-content: center;
-} */
 .mfp-content #modal-menu {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
 }
-		
- 
+#Container .work-item {
+	padding: 5px;
+	margin-bottom: 20px;
+}
+.work-item p {
+	font-size: 12px;
+}	
+#team .col-xs-6,	
+.mix {
+	padding-right: 10px;
+	padding-left: 10px;
+} 
+#work .controls {
+	margin-bottom: 30px;
 	}
+#team hr {
+	margin-bottom: 30px;
+}
+.member {
+	margin-bottom: 20px;
+}
+
+#contact .flex-cont li,
+#contact .flex-cont p {
+	font-size: 14px;
+}
+
+}
 	
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 .flex-wrap .flex-content {
 	width: 100%;
 	}	
-	 
+#Container .work-item {
+	padding: 0;
+	margin-bottom: 10px;
+}
+.work-item p {
+	display: none;
+}	
+.mix {
+	padding-right: 5px;
+	padding-left: 5px;
+} 
+#work .controls {
+	margin-bottom: 20px;
+	}	 
 	}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
