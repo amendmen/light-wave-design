@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/blue.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -19,7 +20,7 @@
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<a href="#"><h3 class="logo">Light wave</h3></a>
-				<ul class="nav nav-pills">
+				<ul id="modal-menu" class="nav nav-pills">
 					<li class="active"><a class='go_to' href="#home">Home</a></li>
 					<li><a class='go_to' href="#services">services</a></li>
 					<li><a class='go_to' href="#pricing">pricing</a></li>
@@ -28,9 +29,9 @@
 					<li><a class='go_to' href="#contact">contact</a></li>
 				</ul>
 			</div>
-			
+			<a class="popup-modal" href="#modal-menu"><div class="sandvich"><i class="fa fa-bars"></i></div></a>
 		</nav>
-
+		
 	
 			<div class="flex-wrap">
 				<div class="flex-content">
@@ -57,19 +58,19 @@
 							<li data-target="#carousel" data-slide-to="2"></li>
 						</ol>
 					</div>
-					<div class="row">
-						<h3>In vitae sagittis nisi.</h3>
-					</div>
 					
-					<div class="socials container">
-						<div class="row">
+						<h3>In vitae sagittis nisi.</h3>
+			
+					
+					<div class="socials ">
+						
 							<a href="#"><div class="soc"><i class="fa fa-facebook" ></i></div></a>
 							<a href="#"><div class="soc"><i class="fa fa-twitter" ></i></div></a>
 							<a href="https://github.com/amendmen"><div class="soc"><i class="fa fa-github"></i></div></a>
 							<a href="#"><div class="soc"><i class="fa fa-skype" ></i></i></div></a>
-						</div>
+					
 					</div>
-					<div class="row"><a href="#"><div class="btn">See service list</div></a></div>
+					<a href="#"><div class="btn">See service list</div></a>
 				</div>
 			</div>
 
