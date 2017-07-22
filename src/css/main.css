@@ -42,6 +42,9 @@ footer {
   position: relative;
   z-index: 100; }
 
+header {
+  max-height: 1080px; }
+
 .navbar {
   border: none;
   float: left;
@@ -102,7 +105,8 @@ header {
   .flex-wrap .flex-content {
     width: 50%;
     text-align: center;
-    z-index: 110; }
+    z-index: 110;
+    max-width: 1200px; }
 
 .center {
   height: 200px;
@@ -258,26 +262,29 @@ section h4 {
     height: auto;
     padding: 20px; }
     #team .member .name i {
-      float: left;
+      text-align: center;
       font-size: 70px;
       display: block; }
     #team .member .name h3 {
       margin-top: 15px;
       vertical-align: middle; }
     #team .member .name h5 {
-      font-size: 12px; }
+      font-size: 12px;
+      word-wrap: nowrap; }
 
 #contact {
   padding-bottom: 50px; }
   #contact .flex-cont {
     width: 100%;
+    max-width: 1200px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around; }
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
     #contact .flex-cont .contact-container {
       padding: 50px 20px;
       width: 32%;

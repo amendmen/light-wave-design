@@ -37,7 +37,8 @@ footer
 	width: 100%
 	position: relative
 	z-index: 100
-
+header
+	max-height: 1080px
 .navbar
 	border: none
 	float: left
@@ -81,6 +82,7 @@ header
 		width: 50%
 		text-align: center
 		z-index: 110
+		max-width: 1200px
 .center
 	height: 200px
 	margin-top: 120px
@@ -209,13 +211,12 @@ section h4
 			width: 100%
 			max-height: 200px
 			background-size: cover
-			
 		.name
 			width: 100%
 			height: auto
 			padding: 20px
 			i 
-				float: left
+				text-align: center
 				font-size: 70px
 				display: block
 			h3
@@ -223,12 +224,15 @@ section h4
 				vertical-align: middle
 			h5
 				font-size: 12px
+				word-wrap: nowrap
 #contact
 	padding-bottom: 50px
+
 	.flex-cont	
 		width: 100%
+		max-width: 1200px
 		display: flex
-		justify-content: space-around
+		justify-content: space-between
 		.contact-container
 			padding: 50px 20px
 			width: 32%

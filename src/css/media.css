@@ -16,6 +16,9 @@
 	width: 80%;
 	}
 
+#home .btn {
+	margin-top: 0;
+}
 .sandvich {
 	display: block;
 	position: absolute;
@@ -64,6 +67,29 @@
 	font-size: 14px;
 }
 
+#team .member {
+	
+}
+#team .member img {
+	width: 50%;
+	height: 100%;
+	float: left;
+
+}
+#team .mem-wrap {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+#team .mem-wrap .name {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	align-self: center;
+	
+
+
 }
 	
 /* Extra Small Devices, Phones */
@@ -84,7 +110,10 @@
 } 
 #work .controls {
 	margin-bottom: 20px;
-	}	 
+	}
+
+
+
 	}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
