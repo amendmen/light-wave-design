@@ -237,6 +237,9 @@ section h4 {
 #team hr {
   margin-bottom: 100px; }
 
+#team .col-sm-3 {
+  padding: 0 5px; }
+
 #team .member {
   width: 100%;
   -webkit-border-radius: 8px 8px 0 0;
@@ -251,7 +254,8 @@ section h4 {
     -o-transition: all, 0.4s;
     transition: all, 0.4s; }
   #team .member p {
-    margin: 0 20px 20px 20px; }
+    margin: 0 10px 10px 10px;
+    font-size: 10px; }
   #team .member img {
     width: 100%;
     max-height: 200px;
@@ -259,18 +263,25 @@ section h4 {
             background-size: cover; }
   #team .member .name {
     width: 100%;
-    height: auto;
-    padding: 20px; }
-    #team .member .name i {
-      text-align: center;
-      font-size: 70px;
-      display: block; }
+    margin-top: -30px; }
     #team .member .name h3 {
-      margin-top: 15px;
-      vertical-align: middle; }
+      font-size: 16px; }
     #team .member .name h5 {
-      font-size: 12px;
+      font-size: 10px;
       word-wrap: nowrap; }
+  #team .member .git {
+    text-align: center;
+    position: relative;
+    bottom: 40px; }
+  #team .member i {
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    overflow: hidden;
+    width: 70px;
+    font-size: 70px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; }
 
 #contact {
   padding-bottom: 50px; }

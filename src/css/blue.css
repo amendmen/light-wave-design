@@ -101,6 +101,15 @@ hr {
   background-color: rgba(1, 1, 1, 0.2); }
   #team .member h5 {
     color: blue; }
+  #team .member i {
+    color: blue;
+    background-color: #FFF; }
+    #team .member i:hover {
+      background-color: blue;
+      color: #FFF;
+      -webkit-transition: all, 0.25s;
+      -o-transition: all, 0.25s;
+      transition: all, 0.25s; }
 
 #contact .contact-container {
   background-color: rgba(1, 1, 1, 0.2); }

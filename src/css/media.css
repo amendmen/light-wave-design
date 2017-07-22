@@ -67,8 +67,10 @@
 	font-size: 14px;
 }
 
-#team .member {
-	
+#team .member .git {
+	position: static;
+	width: 100%;
+	height: 100%;
 }
 #team .member img {
 	width: 50%;
@@ -76,20 +78,18 @@
 	float: left;
 
 }
-#team .mem-wrap {
+
+
+#team .mem-wrap  {
 	float: left;
 	width: 50%;
-	height: 100%;
+	padding: 15px;
+	text-align: center;
+
 }
 #team .mem-wrap .name {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 100%;
-	align-self: center;
-	
-
-
+	margin-top: 10px;
+	margin-bottom: 15px;
 }
 	
 /* Extra Small Devices, Phones */
@@ -111,7 +111,13 @@
 #work .controls {
 	margin-bottom: 20px;
 	}
-
+#team .mem-wrap {
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+#team .mem-wrap p {
+	display: none;
+}
 
 
 	}
