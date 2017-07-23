@@ -25,13 +25,14 @@ $(document).ready(function() {
 		type: 'inline',
 		preloader: false,
 		closeOnContentClick: true,
-		modal: true
+		modal: false
 	});
-	$(document).mouseup( '#modal-menu .go_to', function (e) {
-		e.preventDefault();
+	
+	$('a.go_to').click(function() {
 		$.magnificPopup.close();
 	});
-});
+	
+    });
 
 	$(function(){
 		$('#Container').mixItUp();
@@ -40,7 +41,7 @@ $(document).ready(function() {
 	$('.go_to').click( function(){ 
 		var scroll_el = $(this).attr('href'); 
 		if ($(scroll_el).length != 0) { 
-			$('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500); 
+			$('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 600); 
 		}
 		return false; 
 	}); 
