@@ -1,5 +1,5 @@
 a:hover {
-  color: blue; }
+  color: #1769ed; }
 
 .navbar {
   background-color: rgba(1, 1, 1, 0.6); }
@@ -10,50 +10,50 @@ a:hover {
 .nav > li > a:hover,
 .nav > li > a.active,
 .nav-pills > li.active {
-  border-bottom: blue solid 1px;
+  border-bottom: #1769ed solid 1px;
   background-color: inherit;
   -webkit-border-radius: 0;
           border-radius: 0;
   color: #fff; }
 
 #carousel p {
-  color: blue; }
+  color: #1769ed; }
 
 .soc {
-  border: 2px solid blue; }
+  border: 2px solid #1769ed; }
   .soc:hover {
     -webkit-transition: background-color, 0.25s;
     -o-transition: background-color, 0.25s;
     transition: background-color, 0.25s;
-    background: blue;
+    background: #1769ed;
     color: #fff; }
 
 .btn {
-  background-color: blue;
-  border: 2px solid blue; }
+  background-color: #1769ed;
+  border: 2px solid #1769ed; }
   .btn:focus, .btn:hover {
     background-color: rgba(255, 255, 255, 0.1);
     color: #fff;
-    border: 2px solid blue;
+    border: 2px solid #1769ed;
     -webkit-transition: background-color, 0.25s;
     -o-transition: background-color, 0.25s;
     transition: background-color, 0.25s;
     outline: none; }
 
 hr {
-  background-color: blue; }
+  background-color: #1769ed; }
 
 .service-item {
   background-color: rgba(1, 1, 1, 0.2); }
   .service-item:hover {
     background-color: rgba(255, 255, 255, 0.1);
-    -webkit-transition: background-color, 0.4s;
-    -o-transition: background-color, 0.4s;
-    transition: background-color, 0.4s;
+    -webkit-transition: background-color, 0.1s;
+    -o-transition: background-color, 0.1s;
+    transition: background-color, 0.1s;
     -webkit-box-shadow: 0 0 5px rgba(1, 1, 1, 0.6);
             box-shadow: 0 0 5px rgba(1, 1, 1, 0.6); }
   .service-item i {
-    color: blue; }
+    color: #1769ed; }
 
 .price-item {
   background-color: rgba(1, 1, 1, 0.2);
@@ -64,18 +64,18 @@ hr {
     background-color: rgba(255, 255, 255, 0.1);
     -webkit-box-shadow: inset 0 0 8px rgba(1, 1, 1, 0.6);
             box-shadow: inset 0 0 8px rgba(1, 1, 1, 0.6);
-    -webkit-transition: all, 0.5s;
-    -o-transition: all, 0.5s;
-    transition: all, 0.5s; }
+    -webkit-transition: all, 0.1s;
+    -o-transition: all, 0.1s;
+    transition: all, 0.1s; }
   .price-item .type {
     background-color: rgba(1, 1, 1, 0.6);
-    color: blue; }
+    color: #1769ed; }
 
 #Container a:hover {
   color: #fff; }
 
 .work-item {
-  border: 2px solid blue;
+  border: 2px solid #1769ed;
   background-color: rgba(1, 1, 1, 0.2); }
   .work-item:hover {
     background-color: rgba(255, 255, 255, 0.1);
@@ -87,7 +87,7 @@ hr {
 .mixitup-control-active {
   background-color: rgba(255, 255, 255, 0.1);
   color: #fff;
-  border: 2px solid blue;
+  border: 2px solid #1769ed;
   -webkit-transition: background-color, 0.25s;
   -o-transition: background-color, 0.25s;
   transition: background-color, 0.25s; }
@@ -100,12 +100,12 @@ hr {
   border: 1px solid #fff;
   background-color: rgba(1, 1, 1, 0.2); }
   #team .member h5 {
-    color: blue; }
+    color: #1769ed; }
   #team .member i {
-    color: blue;
+    color: #1769ed;
     background-color: #FFF; }
     #team .member i:hover {
-      background-color: blue;
+      background-color: #1769ed;
       color: #FFF;
       -webkit-transition: all, 0.25s;
       -o-transition: all, 0.25s;
@@ -114,7 +114,7 @@ hr {
 #contact .contact-container {
   background-color: rgba(1, 1, 1, 0.2); }
   #contact .contact-container h2 {
-    color: blue; }
+    color: #1769ed; }
 
 #home .sandvich {
-  border: 2px solid blue; }
+  border: 2px solid #1769ed; }
